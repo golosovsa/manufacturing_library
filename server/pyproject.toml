@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "manufacturing-library-server"
+version = "0.1.0"
+description = "Manufacturing library backend application"
+authors = ["grm <golosov_sa@mail.ru>"]
+readme = "README.md"
+packages = [{include = "manufacturing_library_server"}]
+
+[tool.poetry.dependencies]
+python = "3.11"
+django = "^4.1.6"
+djangorestframework = "^3.14.0"
+poetry = "^1.3.2"
+django-cors-headers = "^3.13.0"
+
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

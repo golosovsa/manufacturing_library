@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-14 12:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: deviations/models/base_deviation.py:10
+msgid "Shaft system"
+msgstr "Система вала"
+
+#: deviations/models/base_deviation.py:10
+msgid "Hole system"
+msgstr "Система отверстия"
+
+#: deviations/models/base_deviation.py:16
+msgid "Upper deviation"
+msgstr "Верхнее отклонение"
+
+#: deviations/models/base_deviation.py:17
+msgid "Lower deviation"
+msgstr "Нижнее отклонение"
+
+#: deviations/models/base_deviation.py:20
+msgid "System"
+msgstr "Система"
+
+#: deviations/models/base_deviation.py:22
+#: deviations/models/base_deviation_grade.py:12
+msgid "Base deviation"
+msgstr "Основное отклонение"
+
+#: deviations/models/base_deviation.py:25
+msgid "Designation"
+msgstr "Наименование"
+
+#: deviations/models/base_deviation.py:29
+#, fuzzy
+#| msgid "Base deviation"
+msgid "Base deviation1"
+msgstr "Основное отклонение"
+
+#: deviations/models/base_deviation.py:30
+#, fuzzy
+#| msgid "Base deviation"
+msgid "Base deviations"
+msgstr "Основное отклонение"
+
+#: deviations/models/base_deviation_grade.py:10
+msgid "Grade range"
+msgstr "Диаппазон"
+
+#: deviations/models/base_deviation_grade.py:17
+#, fuzzy
+#| msgid "Base deviation"
+msgid "Base deviation grade"
+msgstr "Значение основного отклонения"
+
+#: deviations/models/base_deviation_grade.py:18
+#, fuzzy
+#| msgid "Base deviation"
+msgid "Base deviation grades"
+msgstr "Значения основных отклонений"
+
+#: deviations/models/grade_range.py:7
+msgid "Over"
+msgstr "Свыше"
+
+#: deviations/models/grade_range.py:8
+msgid "Up to"
+msgstr "До"
+
+#: deviations/models/grade_range.py:12
+msgid "Range"
+msgstr "Диапазон"
+
+#: deviations/models/grade_range.py:13
+msgid "Ranges"
+msgstr "Диапазона"
+
+#: deviations/models/grade_range.py:16
+msgid "Over {} up to {}"
+msgstr "Свыше {} до {}"
